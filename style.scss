@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Myriad Pro';
-  src: url('http://yoonshop.it/wp-content/themes/yoonshop/library/fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
-  src: url('http://yoonshop.it/wp-content/themes/yoonshop/library/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('http://yoonshop.it/wp-content/themes/yoonshop/library/fonts/MyriadPro-Regular.woff') format('woff'), /* Modern Browsers */
-       url('http://yoonshop.it/wp-content/themes/yoonshop/library/fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('http://yoonshop.it/wp-content/themes/yoonshop/library/fonts/MyriadPro-Regular.svg#b6b933d6eeb92d33db4fad36c45b0bff') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  400;
-}
-
 /* @group FONTELLO */
 
 @font-face {
@@ -98,7 +86,7 @@ html {
 
 body {
 	background-color: white;
-	font: 1em/1.5em "Myriad Pro", Helvetica, Arial, sans-serif;
+	font: 1em/1.5em 'PT Sans', Helvetica, Arial, sans-serif;
 	color: $black;
 	width: 100%;
 	height: 100%;
@@ -109,6 +97,10 @@ body {
 a {
 	color: inherit;
 	text-decoration: underline;
+}
+
+h2 {
+    margin-top: 43px;
 }
 
 img {
@@ -226,7 +218,7 @@ menu {
 	list-style: none;
 	padding-left: 0;
 	margin: 0;
-	padding: 43px 43px 4vh;
+	padding: 63px 43px 4vh;
 }
 
 menu > li > a {
@@ -316,10 +308,17 @@ section p {
 	clear: both;
 	margin: 0 auto;
 	text-align: center;
+    border-top: 43px solid $off-white;
+    border-bottom: 43px solid $off-white;
+
+    > *:first-child {
+        margin-top: 0;
+    }
 }
 
 #home .main {
 	overflow: hidden;
+    border: none;
 }
 
 .bottone {
@@ -546,9 +545,12 @@ section p {
 
 	.main {
 		width: 100%;
-		padding: 1em 0;
+		padding: 0;
 		background-color: white;
-		border-bottom: 30px solid white;
+		border-top: 43px solid white;
+		border-bottom: 43px solid white;
+
+
 	}
 
 	#home .main {

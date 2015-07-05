@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 	var	menuContainer = document.getElementById('menu-container'),
 		viewport = document.documentElement.clientWidth,
-		deviceHeight = document.documentElement.clientHeight - 100,
+		deviceHeight = document.documentElement.clientHeight - 50,
 		hash = window.location.hash.substring(1),
 		contattiInner = document.getElementById('contatti-inner'),
 		designersSecondary = document.querySelector('#designers .secondary'),

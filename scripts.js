@@ -1,19 +1,17 @@
-// @codekit-prepend "libs/fastclick.js"
-
 document.addEventListener('DOMContentLoaded', function() {
 	var	menuContainer = document.getElementById('menu-container'),
 		viewport = document.documentElement.clientWidth,
 		deviceHeight = document.documentElement.clientHeight - 100,
 		hash = window.location.hash.substring(1),
 		contattiInner = document.getElementById('contatti-inner'),
-		prodottiSecondary = document.querySelector('#prodotti .secondary'),
+		designersSecondary = document.querySelector('#designers .secondary'),
 		beenDoneC = false,
 		beenDoneP = false,
 		copyright = document.getElementById('copyright'),
 		telLink = document.getElementsByClassName('telLink'),
 		mapLink = document.getElementsByClassName('mapLink'),
 		isiOSSafari = (navigator.userAgent.match(/Mac OS X/i)) ? true: false;
-	
+
 	function enlargeImgs() {
 		[].forEach.call(document.querySelectorAll('.secondary__img'), function(el) {
 			el.addEventListener('click', function() {
@@ -32,71 +30,71 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
 		});
 	}
-	
+
 	function lazyLoad( thing ) {
 		thing.innerHTML = thing.innerHTML.replace(/<!--((.|\n|\r)*?)-->/g, '$1');
 		if ( thing === contattiInner ) {
 			beenDoneC = true;
-		} else if ( thing === prodottiSecondary ) {
+		} else if ( thing === designersSecondary ) {
 			enlargeImgs();
 			beenDoneP = true;
 		}
 	}
-		
+
 	if ( !hash ) {
 		window.location.hash = 'home';
 	} else if ( hash === 'contatti') {
 		lazyLoad( contattiInner );
-	} else if ( hash === 'prodotti' ) {
-		lazyLoad( prodottiSecondary );
+	} else if ( hash === 'designers' ) {
+		lazyLoad( designersSecondary );
 	}
-	
+
 	if ( viewport < 767 ) {
 		document.getElementById('menu-helper').addEventListener('click', function() {
 			menuContainer.classList.add('menu-open');
 		});
-		
+
 		document.getElementById('close-menu').addEventListener('click', function() {
 			menuContainer.classList.remove('menu-open');
 		});
-		
+
 		[].forEach.call( document.querySelectorAll('#menu li'), function(el) {
 			el.addEventListener('click', function() {
 				menuContainer.classList.remove('menu-open');
 			}, false);
 		});
-			
+
 		[].forEach.call( document.querySelectorAll('section'), function(el) {
 			el.style.height = deviceHeight + 'px';
-			
+
 			// Fix iOS7 Safari bug preventing scrolling with -webkit-overflow-scrolling: touch;
 			el.addEventListener('touchstart', function(event){});
 		});
-		
+
 	//	document.querySelectorAll('section').style.height = deviceHeight + 'px';
 	}
-	
+
 	if ( viewport < 1025 ) {
 		// (most)Tablet scripts
 		FastClick.attach(document.body);
 	}
-	
+
 	if ( viewport > 1200 ) {
 		// Desktop scripts
 	}
-	
-	document.getElementById('prodotti-link').addEventListener('click', function() {
+
+	document.getElementById('designers-link').addEventListener('click', function() {
 		if ( beenDoneP === false ) {
-			lazyLoad( prodottiSecondary );
+			lazyLoad( designersSecondary );
 		}
 	}, false);
-	
+
 	document.getElementById('contatti-link').addEventListener('click', function() {
 		if ( beenDoneC === false ) {
 			lazyLoad( contattiInner );
 		}
 	}, false);
-	
+
 //	[].forEach.call( document.querySelectorAll('#menu li'), function(el) {
 //		el.addEventListener('click', function() {
 //			if ( beenDone === false ) {
@@ -105,14 +103,14 @@ document.addEventListener('DOMContentLoaded', function() {
 //			}
 //		}, false);
 //	});
-	
+
 	if ( !isiOSSafari ) {
 		[].forEach.call( mapLink, function(el) {
 			var coords = el.getAttribute('data-coords');
 			el.setAttribute('href', 'https://maps.google.com/maps?q='+ coords +'&t=m&z=17');
 		});
 	};
-	
+
 	// Recalculate viewport size after resize (smarty!)
 	var resizeFired = false,
 		drawing = false,
@@ -142,5 +140,5 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 	window.addEventListener('resize', throttleResize, false);
-	
+
 });

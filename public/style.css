@@ -95,7 +95,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 img {
   width: 100%; }
@@ -108,7 +108,8 @@ button {
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none; }
 
 .clearfix::after {
   content: '';
@@ -129,13 +130,11 @@ header {
 header > a {
   display: block;
   float: left;
-  height: 50px; }
-
-#logo-d {
-  display: block;
-  height: 50px;
-  padding: 14px 17px 7px;
-  pointer-events: none; }
+  width: 150px;
+  height: 43px;
+  padding: 14px 17px 7px; }
+  header > a > svg {
+    pointer-events: none; }
 
 #menu-helper {
   float: right;
@@ -157,6 +156,8 @@ header > a {
   z-index: 10;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
+  #menu-container a {
+    text-decoration: none; }
 
 #menu-container.menu-open {
   -webkit-transform: translateX(0);
@@ -173,7 +174,8 @@ header > a {
 
 #lang a,
 #lang span {
-  padding: 15px 10px; }
+  padding: 15px 10px;
+  text-decoration: none; }
 
 .lang-selected {
   font-weight: bold;
@@ -202,7 +204,13 @@ menu > li > a {
   background-color: white;
   border-bottom: 3px solid #1A1918;
   font-size: .8em;
-  line-height: 50px; }
+  line-height: 50px;
+  -webkit-transition: .2s ease-out;
+          transition: .2s ease-out; }
+  menu > li > a:hover,
+  menu > li > a:focus {
+    outline: none;
+    border-bottom-width: 5px; }
 
 #menu-container > a {
   display: block;
@@ -214,9 +222,6 @@ menu > li > a {
   margin-top: 2vh;
   background-color: #693D15;
   color: white; }
-
-.mail-link {
-  color: #C8B29A; }
 
 #social {
   margin-top: 2vh; }
@@ -386,9 +391,10 @@ section p {
     height: auto;
     background: transparent; }
   header > a {
-    height: auto; }
-  #logo-d {
-    margin-bottom: 4vh; }
+    height: auto;
+    margin-bottom: 4vh;
+    padding-left: 0;
+    padding-top: 0; }
   #menu {
     padding: 0; }
   #lang {
@@ -443,7 +449,7 @@ section p {
     font-weight: bold; }
   #copyright {
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 1.5vh;
     width: 100%;
     text-align: center;
@@ -520,7 +526,7 @@ section p {
   #footer-logo {
     position: absolute;
     left: 0;
-    bottom: 1vh;
+    bottom: 3px;
     text-align: left;
     display: inline-block;
-    height: 1.5vh; } }
+    height: 15px; } }

@@ -29,6 +29,49 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/fastclick\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/fastclick\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/fastclick\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/fastclick\/lib\/fastclick.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+		"outputAbbreviatedPath": "\/public\/fastclick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/fastclick\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/fastclick\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/bower_components\/fastclick\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/index-it.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -46,6 +89,17 @@
 		"outputAbbreviatedPath": "\/public\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/myzar.esproj\/user.Emanuele.ProjectGlyph.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147573,
+		"inputAbbreviatedPath": "\/myzar.esproj\/user.Emanuele.ProjectGlyph.png",
+		"outputAbbreviatedPath": "\/myzar.esproj\/user.Emanuele.ProjectGlyph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/home1.jpg": {
 		"fileType": 16384,
@@ -71,7 +125,7 @@
 		},
 	"\/public\/images\/logo.svg": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/images\/logo.svg",
 		"outputAbbreviatedPath": "No Output Path",
@@ -265,6 +319,14 @@
 	],
 "lastSavedByUser": "Emanuele Feliziani",
 "manualImportLinks": {
+	"\/scripts.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+			"position": 0,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

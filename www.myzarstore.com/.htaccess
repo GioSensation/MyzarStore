@@ -34,9 +34,6 @@ Header unset ETag
 
 # End of browser caching
 
-# directory browsing
-Options All -Indexes
-
 # Deny access to all files beginning with hta, this protects the .htaccess itself
 <Files ~ "^.*\.([Hh][Tt][Aa])">
 order allow,deny
@@ -49,11 +46,6 @@ satisfy all
 		Header set Access-Control-Allow-Origin "*"
 	</IfModule>
 </FilesMatch>
-
-<IfModule pagespeed_module>
-	ModPagespeed off
-#	ModPagespeedEnableFilters canonicalize_javascript_libraries,combine_javascript,combine_css,collapse_whitespace,elide_attributes,rewrite_images,convert_jpeg_to_progressive,convert_jpeg_to_webp,remove_comments
-</IfModule>
 
 RewriteEngine on
 RewriteCond %{REQUEST_URI} \.(html)$

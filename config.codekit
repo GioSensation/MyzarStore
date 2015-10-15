@@ -1,7 +1,25 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
+	"\/_about-images.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_about-images.kit",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/_about-images.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_designers.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_designers.kit",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/_designers.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -94,12 +112,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 147573,
+		"initialSize": 2667,
 		"inputAbbreviatedPath": "\/myzar.esproj\/user.Emanuele.ProjectGlyph.png",
 		"outputAbbreviatedPath": "\/myzar.esproj\/user.Emanuele.ProjectGlyph.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/scripts.js": {
 		"fileType": 64,
@@ -148,233 +166,651 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-1.JPG": {
+	"\/www.myzarstore.com\/images\/about-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 384232,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-1.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-1.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-1.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-2.JPG": {
+	"\/www.myzarstore.com\/images\/about-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 388259,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-2.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-2.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-2.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-3.JPG": {
+	"\/www.myzarstore.com\/images\/about-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 361370,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-3.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-3.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-3.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-4.JPG": {
+	"\/www.myzarstore.com\/images\/about-4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 372707,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-4.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-4.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-4.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-5.JPG": {
+	"\/www.myzarstore.com\/images\/about-5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 354573,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-5.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-5.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-5.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-6.JPG": {
+	"\/www.myzarstore.com\/images\/about-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 413818,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-6.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-6.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-6.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/about-7.JPG": {
+	"\/www.myzarstore.com\/images\/about-7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 402583,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-7.JPG",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-7.JPG",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-7.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2881.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.51978e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-01.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/about\/about-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.17451e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-02.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/about\/about-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.26188e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-03.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/about\/about-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.34716e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-04.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/about\/about-05.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4.52619e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2881.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2881.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-05.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-05.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2883.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-06.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4.24827e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2883.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2883.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-06.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-06.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2886.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-07.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.87604e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2886.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2886.jpg",
+		"initialSize": 2.36437e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-07.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2888.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-08.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.56243e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2888.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2888.jpg",
+		"initialSize": 2.27494e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-08.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-08.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2899.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.40295e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2899.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2899.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/www.myzarstore.com\/images\/designers\/855A2900.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.09517e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2900.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2900.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/www.myzarstore.com\/images\/designers\/855A2910.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-09.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.18886e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2910.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2910.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-09.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/about\/about-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.8287e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-10.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2915.jpg": {
+	"\/www.myzarstore.com\/images\/about\/about-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.25682e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-11.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/about\/about-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.45227e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-12.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/about\/about-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2881.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.52619e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2881.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2881.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2883.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.24827e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2883.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2883.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2886.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.87604e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2886.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2886.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2888.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.56243e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2888.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2888.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2899.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.40295e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2899.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2899.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2900.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09517e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2900.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2910.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.18886e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2910.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2910.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2915.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.33743e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2915.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2915.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2915.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2915.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/855A2922.jpg": {
+	"\/www.myzarstore.com\/images\/designers-logos\/855A2922.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.9175e+06,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2922.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/855A2922.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2922.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/855A2922.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/agneskolignan.png": {
+	"\/www.myzarstore.com\/images\/designers-logos\/agneskolignan.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 54660,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/agneskolignan.png",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/agneskolignan.png",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/agneskolignan.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/agneskolignan.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/coro-jewellery.jpg": {
+	"\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1922,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/coro-jewellery.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10961,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/coro-jewellery.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/coro-jewellery.jpg",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/coro-jewellery.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/coro-jewellery.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/eulalia-b.png": {
+	"\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 22873,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/eulalia-b.png",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/eulalia-b.png",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/the-b.png": {
+	"\/www.myzarstore.com\/images\/designers-logos\/the-b.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 15045,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/the-b.png",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/the-b.png",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/the-b.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/the-b.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/designers\/xenophora.png": {
+	"\/www.myzarstore.com\/images\/designers-logos\/xenophora.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 45760,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/xenophora.png",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/xenophora.png",
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/xenophora.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/xenophora.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.40295e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-01.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.22641e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-02.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.33743e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-03.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.4356e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-04.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.31519e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-05.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.50058e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-06.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.04598e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-07.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.25907e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-08.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.98723e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-09.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.001e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-10.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.17554e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-11.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.60485e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-12.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09517e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-13.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.46111e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-14.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.47359e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-15.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.2444e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-16.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.45441e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-17.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.9175e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-18.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-19.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589191,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-19.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295084,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-20.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-21.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80981e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-21.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 706646,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-22.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-22.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-23.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 277972,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-23.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 814693,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-24.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-24.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers\/designers-25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.36033e+06,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-25.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers\/designers-25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -674,7 +1110,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/06.jpg": {
 		"fileType": 16384,
@@ -685,7 +1121,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/06.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/07.jpg": {
 		"fileType": 16384,
@@ -696,7 +1132,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/389818-4-5-0.jpg": {
 		"fileType": 16384,
@@ -707,7 +1143,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/389818-4-5-0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/61010010.JPG": {
 		"fileType": 16384,
@@ -718,7 +1154,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/61010010.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/737465-12-13A-PfDF43.jpg": {
 		"fileType": 16384,
@@ -729,7 +1165,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/737465-12-13A-PfDF43.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/B701625_N0054_ID873168353_E_P001.jpg": {
 		"fileType": 16384,
@@ -740,7 +1176,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/B701625_N0054_ID873168353_E_P001.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott248 copia.jpg": {
 		"fileType": 16384,
@@ -751,7 +1187,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott248 copia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott255 copia.jpg": {
 		"fileType": 16384,
@@ -762,7 +1198,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott255 copia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott261 copia.jpg": {
 		"fileType": 16384,
@@ -773,7 +1209,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott261 copia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/x.jpg": {
 		"fileType": 16384,
@@ -784,7 +1220,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/home.jpg": {
 		"fileType": 16384,
@@ -795,7 +1231,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/image2.jpg": {
 		"fileType": 16384,
@@ -806,7 +1242,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/img.jpg": {
 		"fileType": 16384,
@@ -817,7 +1253,7 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/img.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/logo.svg": {
 		"fileType": 8192,
@@ -848,7 +1284,106 @@
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/855A2871copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2881.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32824,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2881.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2881.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2883.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26972,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2883.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2883.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2886.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15616,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2886.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2886.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2888.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16876,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2888.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2888.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2899.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28716,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2899.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2899.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2900.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18599,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2900.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2910.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16896,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2910.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2910.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2915.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27794,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2915.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2915.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2922.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18265,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2922.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2922.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/www.myzarstore.com\/images\/thumbs\/about-1.jpg": {
 		"fileType": 16384,
@@ -927,101 +1462,409 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2881.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 32824,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2881.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2881.jpg",
+		"initialSize": 10364,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-01.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2883.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26972,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2883.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2883.jpg",
+		"initialSize": 9429,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-02.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2886.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15616,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2886.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2886.jpg",
+		"initialSize": 14028,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-03.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2888.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-04.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16876,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2888.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2888.jpg",
+		"initialSize": 15015,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-04.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-04.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2899.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-05.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28716,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2899.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2899.jpg",
+		"initialSize": 16000,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-05.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-05.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2900.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-06.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18599,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2900.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2900.jpg",
+		"initialSize": 13434,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-06.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-06.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2910.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-07.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16896,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2910.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2910.jpg",
+		"initialSize": 11108,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-07.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2915.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-08.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27794,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2915.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2915.jpg",
+		"initialSize": 11877,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-08.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-08.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/855A2922.jpg": {
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-09.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18265,
-		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2922.jpg",
-		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/855A2922.jpg",
+		"initialSize": 8582,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-09.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8091,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-10.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12198,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-11.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/about\/about-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13571,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-12.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/about\/about-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13880,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-01.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9563,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-02.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13394,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-03.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11052,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-04.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23240,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-05.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14840,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-06.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17018,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-07.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13632,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-08.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15457,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-09.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8760,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-10.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13923,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-11.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12382,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-12.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9188,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-13.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9740,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-14.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14663,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-15.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19150,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-16.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11345,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-17.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9075,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-18.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-19.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11669,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-19.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8700,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-20.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-21.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6409,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-21.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5849,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-22.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-22.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-23.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5973,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-23.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7008,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-24.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-24.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8225,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-25.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1102,7 +1945,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "myzar",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "globe_gray"
+	"iconImageName": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-180x180.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -1584,10 +2427,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -1596,15 +2435,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1612,75 +2443,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

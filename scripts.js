@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		toBlur = document.querySelector( '.to-blur' );
 	
 	function enlarge( imageToEnlarge ) {
-		console.log('enlarge');
 		// Create loading thing
 		var waitEl = document.createElement( 'div' );
 		waitEl.classList.add( 'loading' );
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		[].forEach.call(document.querySelectorAll( '.to-enlarge' ), function(el) {
 			el.addEventListener('click', function(event) {
 				event.stopImmediatePropagation();
-				console.log('clicked');
 				enlarge( el );
 			}, true);
 		});

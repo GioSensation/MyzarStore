@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19127",
 "files": {
 	"\/_about-images.kit": {
 		"fileType": 2048,
@@ -485,6 +485,26 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/www.myzarstore.com\/images\/designers-logos\/anna-daubner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3587,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/anna-daubner.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/anna-daubner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/claudiadanna.svg": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/claudiadanna.svg",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -507,6 +527,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/www.myzarstore.com\/images\/designers-logos\/cristina-ruggiero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7390,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/cristina-ruggiero.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/cristina-ruggiero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -518,6 +549,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/www.myzarstore.com\/images\/designers-logos\/evadifranco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5159,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/evadifranco.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/evadifranco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/irma-cipolletta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5139,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/irma-cipolletta.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/irma-cipolletta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/www.myzarstore.com\/images\/designers-logos\/logoquattromani.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -525,6 +578,17 @@
 		"initialSize": 2282,
 		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/logoquattromani.png",
 		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/logoquattromani.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/muta-design.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6946,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/muta-design.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/muta-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -539,6 +603,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/toi-et-moi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7689,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/toi-et-moi.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/toi-et-moi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www.myzarstore.com\/images\/designers-logos\/valentina-l-fontana.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55141,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/valentina-l-fontana.png",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/designers-logos\/valentina-l-fontana.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/www.myzarstore.com\/images\/designers-logos\/xenophora.png": {
 		"fileType": 32768,
@@ -825,6 +911,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/www.myzarstore.com\/images\/events\/baroque-cocktail-party.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 506311,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/events\/baroque-cocktail-party.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/events\/baroque-cocktail-party.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/www.myzarstore.com\/images\/favicons\/android-chrome-144x144.png": {
 		"fileType": 32768,
@@ -1880,6 +1977,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/www.myzarstore.com\/images\/thumbs\/events\/baroque-cocktail-party.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251254,
+		"inputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/events\/baroque-cocktail-party.jpg",
+		"outputAbbreviatedPath": "\/www.myzarstore.com\/images\/thumbs\/events\/baroque-cocktail-party.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/www.myzarstore.com\/images\/thumbs\/the-man.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2049,8 +2157,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -2059,6 +2175,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

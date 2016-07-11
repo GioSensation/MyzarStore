@@ -180,7 +180,17 @@
 </section>		<section id="events">
 			<div class="main clearfix">
 				<h2>Events</h2>
-				<p style="text-align: center;">Coming soon… Stay tuned.</p>
+				<h3>A SPRING-SUMMER BAROQUE COCKTAIL PARTY</h3>
+				<span class="lazy-me"><!--<img src="images/thumbs/events/baroque-cocktail-party.jpg" alt="A spring-summer Baroque Cocktail Party" class="to-enlarge">--></span>
+				<p style="text-align: center;"><small><strong>Venerdì 20 Maggio | Dalle 19:00 alle 21:00</strong></small></p>
+				<p>Un party a tema barocco per presentare le nuove collezioni primavera-estate 2016 selezionate da MYZAR Concept Store. Venerdì 20 maggio, dalle 19:00 alle 21:00, lo spazio di Via Giulia 73 si anima per la prima volta dalla sua apertura con un evento esclusivo.</p>
+				<p>MYZAR è un esperimento creativo nato nell’estate 2015 dall’esigenza di dare ai designer emergenti una vetrina per promuovere le loro creazioni. Abbigliamento, accessori, gioielleria, edizioni limitate, pezzi unici e magazine indipendenti sono accuratamente selezionati in un tutto il mondo.</p>
+				<p>Con il suo affaccio su una delle passeggiate più suggestive di Roma, MYZAR racconta le meraviglie della moda in un ambiente dove l’esperienza dello shopping si fonde a quella del luxury, in uno spazio in cui il cliente è, prima di tutto, un ospite da accogliere.</p>
+				<p>MYZAR non è solo un luogo dove andare a fare shopping, è un contenitore di “oggetti” che esprimono l’Io interiore di chi li sceglie.</p>
+				<p>Durante la serata saranno presentate le collezioni di Quattromani, Anna Daubner, Claudia Danna, Comeforbreakfast, Co.Ro Jewels, Cristina Ruggiero, Valentina Fontana, Gaetano Pollice, Irma Cipolletta, Mutadesign, Damiano Marini.</p>
+				<p>Partner dell’evento per l’hairstyle e il make-up delle modelle sono Franco & Cristiano Russo. Realtà attiva nel settore del beauty e delle tendenze per i capelli e il trucco da oltre trent’anni, il duo creativo si è di recente rinnovato attraverso l’apertura di una nuova sede in Via Frattina 99 e l’utilizzo di tecniche e prodotti al top di gamma L’Oréal Professionnel.<br />
+				<a href="http://francorussoparrucchiere.it" title="Franco Russo Parrucchiere & Make Up" target="_blank">francorussoparrucchiere.it</a> | #francoecristianorusso</p>
+				<p><strong>Dress code: a baroque accessory and your inner joy.</strong></p>
 			</div>
 		</section>
 		<section id="contatti">
@@ -1062,6 +1072,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		contattiInner = document.getElementById('contatti'),
 		aboutSection = document.getElementById('about'),
 		designersSection = document.getElementById('designers'),
+		eventsSection = document.getElementById('events'),
 		beenDoneA = false,
 		beenDoneC = false,
 		beenDoneP = false,
@@ -1132,6 +1143,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		lazyLoad( designersSection );
 	} else if ( hash === 'about' ) {
 		lazyLoad( aboutSection );
+	} else if ( hash === 'events' ) {
+		lazyLoad( eventsSection );
 	}
 
 	function viewportDependantScripts() {
@@ -1188,6 +1201,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('contatti-link').addEventListener('click', function() {
 		if ( beenDoneC === false ) {
 			lazyLoad( contattiInner );
+		}
+	}, false);
+	
+	document.getElementById('events-link').addEventListener('click', function() {
+		if ( beenDoneC === false ) {
+			lazyLoad( eventsSection );
 		}
 	}, false);
 

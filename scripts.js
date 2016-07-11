@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		contattiInner = document.getElementById('contatti'),
 		aboutSection = document.getElementById('about'),
 		designersSection = document.getElementById('designers'),
+		eventsSection = document.getElementById('events'),
 		beenDoneA = false,
 		beenDoneC = false,
 		beenDoneP = false,
@@ -78,6 +79,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		lazyLoad( designersSection );
 	} else if ( hash === 'about' ) {
 		lazyLoad( aboutSection );
+	} else if ( hash === 'events' ) {
+		lazyLoad( eventsSection );
 	}
 
 	function viewportDependantScripts() {
@@ -134,6 +137,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('contatti-link').addEventListener('click', function() {
 		if ( beenDoneC === false ) {
 			lazyLoad( contattiInner );
+		}
+	}, false);
+	
+	document.getElementById('events-link').addEventListener('click', function() {
+		if ( beenDoneC === false ) {
+			lazyLoad( eventsSection );
 		}
 	}, false);
 

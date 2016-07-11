@@ -238,14 +238,14 @@ menu > li > a {
   margin-top: 1vh; }
 
 .shop-link {
-  margin-top: 2vh;
-  background-color: #693D15;
+  margin-top: 3em;
+  background-color: #1A1918;
   color: white; }
 
 #social {
   margin-top: 2vh; }
 
-.shop-link-footer {
+.shop-link-home {
   position: fixed;
   bottom: 0;
   display: block;
@@ -255,7 +255,13 @@ menu > li > a {
   float: left;
   padding: 0;
   text-align: center;
-  line-height: 50px; }
+  line-height: 50px;
+  background-color: #1A1918;
+  color: white;
+  font-size: .8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 5; }
 
 section {
   position: absolute;
@@ -348,6 +354,9 @@ section p {
   display: block;
   width: 80px;
   margin-bottom: 10px; }
+
+#copyright {
+  display: none; }
 
 .loading {
   display: inline-block;
@@ -459,9 +468,6 @@ section p {
             transform: scale(1);
     opacity: 1; }
 
-footer {
-  display: none; }
-
 @media (min-width: 767px) {
   body {
     background-color: #F2F2F2; }
@@ -504,10 +510,10 @@ footer {
   #menu-helper,
   #close-menu,
   #menu > li:first-of-type,
-  .shop-link-footer {
+  .shop-link-home {
     display: none; }
   .shop-link {
-    margin: 3vh 0 1vh; }
+    margin: 3em 0 1vh; }
   #social {
     margin: 1vh 0; }
   #content {
@@ -566,7 +572,7 @@ footer {
 @media (min-width: 900px) {
   /* Fixes for tablets in landscape mode */
   .shop-link {
-    margin: 1vh 0 .5vh; }
+    margin: 3em 0 .5vh; }
   #social {
     margin: 5vh 0 .5vh; }
   #menu-container > .mail-link {
@@ -584,7 +590,7 @@ footer {
   #header-container {
     width: 20%; }
   .shop-link {
-    margin: 2vh 0 1vh; }
+    margin: 3em 0 1vh; }
   #social {
     margin: 5vh 0 .5vh; }
   #menu-container > a {

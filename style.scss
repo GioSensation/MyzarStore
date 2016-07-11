@@ -272,8 +272,8 @@ menu > li > a {
 }
 
 .shop-link {
-	margin-top: 2vh;
-	background-color: #693D15;
+	margin-top: 3em;
+	background-color: $black;
 	color: white;
 }
 
@@ -284,19 +284,6 @@ menu > li > a {
 
 #social {
 	margin-top: 2vh;
-}
-
-.shop-link-footer {
-	position: fixed;
-	bottom: 0;
-	display: block;
-	margin: 0;
-	width: 100%;
-	height: 50px;
-	float: left;
-	padding: 0;
-	text-align: center;
-	line-height: 50px;
 }
 
 section {
@@ -349,6 +336,25 @@ section p {
 #home .main {
 	overflow: hidden;
     border: none;
+}
+
+.shop-link-home {
+	position: fixed;
+	bottom: 0;
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	float: left;
+	padding: 0;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	color: $black;
+	font-size: .8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 5;
 }
 
 .bottone {
@@ -417,6 +423,10 @@ section p {
 	display: block;
 	width: 80px;
 	margin-bottom: 10px;
+}
+
+#copyright {
+	display: none;
 }
 
 $loading-size: 50px;
@@ -505,10 +515,6 @@ $loading-size: 50px;
 	}
 }
 
-footer {
-	display: none;
-}
-
 @media (min-width: 767px) {
 
 	body {
@@ -569,12 +575,12 @@ footer {
 	#menu-helper,
 	#close-menu,
 	#menu > li:first-of-type,
-	.shop-link-footer {
+	.shop-link-home {
 		display: none;
 	}
 
 	.shop-link {
-		margin: 3vh 0 1vh;
+		margin: 3em 0 1vh;
 	}
 
 	#social {
@@ -665,7 +671,7 @@ footer {
 	/* Fixes for tablets in landscape mode */
 
 	.shop-link {
-		margin: 1vh 0 .5vh;
+		margin: 3em 0 .5vh;
 	}
 
 	#social {
@@ -698,7 +704,7 @@ footer {
 	}
 
 	.shop-link {
-		margin: 2vh 0 1vh;
+		margin: 3em 0 1vh;
 	}
 
 	#social {

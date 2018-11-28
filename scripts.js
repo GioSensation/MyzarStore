@@ -183,5 +183,4 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 	window.addEventListener('resize', throttleResize, false);
-	FastClick.attach(document.body);
 });

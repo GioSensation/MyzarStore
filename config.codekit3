@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,121 +7,75 @@
 		"uuidString": "D405E87F-078B-48B5-8E25-82A278AE46C2"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "28905",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/_about-images.kit": {
+	"/_about-images.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/_about-images.html",
+		"oAP": "/www.myzarstore.com/_about-images.html",
 		"oF": 0
 		},
-	"\/_designers.kit": {
+	"/_designers.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/_designers.html",
+		"oAP": "/www.myzarstore.com/_designers.html",
 		"oF": 0
 		},
-	"\/_footer.kit": {
+	"/_footer.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/_footer.html",
+		"oAP": "/www.myzarstore.com/_footer.html",
 		"oF": 0
 		},
-	"\/_header.kit": {
+	"/_header.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/_header.html",
+		"oAP": "/www.myzarstore.com/_header.html",
 		"oF": 0
 		},
-	"\/_retailers.kit": {
+	"/_retailers.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/_retailers.html",
+		"oAP": "/www.myzarstore.com/_retailers.html",
 		"oF": 0
 		},
-	"\/bower_components\/fastclick\/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/fastclick\/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+	"/index-it.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/www.myzarstore.com/index-it.html",
+		"oF": 0
 		},
-	"\/bower_components\/fastclick\/bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/fastclick\/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+	"/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/www.myzarstore.com/index.html",
+		"oF": 0
 		},
-	"\/bower_components\/fastclick\/lib\/fastclick.js": {
+	"/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/fastclick\/lib\/fastclick.js",
+		"oA": 0,
+		"oAP": "/www.myzarstore.com/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/fastclick\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/fastclick\/LICENSE",
-		"oF": 0
-		},
-	"\/bower_components\/fastclick\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/fastclick\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/index-it.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/index-it.html",
-		"oF": 0
-		},
-	"\/index.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/index.html",
-		"oF": 0
-		},
-	"\/myzar.esproj": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/myzar.esproj",
-		"oF": 0
-		},
-	"\/scripts.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/scripts-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/style.scss": {
+	"/style.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -129,1871 +83,2538 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/style.css",
+		"oAP": "/www.myzarstore.com/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/www.myzarstore.com\/.htaccess": {
+	"/www.myzarstore.com/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/.htaccess",
+		"oAP": "/www.myzarstore.com/.htaccess",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/fonts\/fontello.eot": {
+	"/www.myzarstore.com/fonts/fontello.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/fonts\/fontello.eot",
+		"oAP": "/www.myzarstore.com/fonts/fontello.eot",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/fonts\/fontello.svg": {
+	"/www.myzarstore.com/fonts/fontello.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/fonts\/fontello.svg",
+		"oAP": "/www.myzarstore.com/fonts/fontello.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www.myzarstore.com\/fonts\/fontello.ttf": {
+	"/www.myzarstore.com/fonts/fontello.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/fonts\/fontello.ttf",
+		"oAP": "/www.myzarstore.com/fonts/fontello.ttf",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/fonts\/fontello.woff": {
+	"/www.myzarstore.com/fonts/fontello.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/fonts\/fontello.woff",
+		"oAP": "/www.myzarstore.com/fonts/fontello.woff",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/images\/855A2871copy.jpg": {
+	"/www.myzarstore.com/images/855A2871copy.jpg": {
 		"ft": 16384,
 		"iS": 5347160,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/855A2871copy.jpg",
+		"oAP": "/www.myzarstore.com/images/855A2871copy.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-1.jpg": {
+	"/www.myzarstore.com/images/about-1.jpg": {
 		"ft": 16384,
 		"iS": 384232,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-1.jpg",
+		"oAP": "/www.myzarstore.com/images/about-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-2.jpg": {
+	"/www.myzarstore.com/images/about-2.jpg": {
 		"ft": 16384,
 		"iS": 388259,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-2.jpg",
+		"oAP": "/www.myzarstore.com/images/about-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-3.jpg": {
+	"/www.myzarstore.com/images/about-3.jpg": {
 		"ft": 16384,
 		"iS": 361370,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-3.jpg",
+		"oAP": "/www.myzarstore.com/images/about-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-4.jpg": {
+	"/www.myzarstore.com/images/about-4.jpg": {
 		"ft": 16384,
 		"iS": 372707,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-4.jpg",
+		"oAP": "/www.myzarstore.com/images/about-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-5.jpg": {
+	"/www.myzarstore.com/images/about-5.jpg": {
 		"ft": 16384,
 		"iS": 354573,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-5.jpg",
+		"oAP": "/www.myzarstore.com/images/about-5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-6.jpg": {
+	"/www.myzarstore.com/images/about-6.jpg": {
 		"ft": 16384,
 		"iS": 413818,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-6.jpg",
+		"oAP": "/www.myzarstore.com/images/about-6.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about-7.jpg": {
+	"/www.myzarstore.com/images/about-7.jpg": {
 		"ft": 16384,
 		"iS": 402583,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about-7.jpg",
+		"oAP": "/www.myzarstore.com/images/about-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-01.jpg": {
+	"/www.myzarstore.com/images/about/about-01.jpg": {
 		"ft": 16384,
 		"iS": 5519780,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-01.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-02.jpg": {
+	"/www.myzarstore.com/images/about/about-02.jpg": {
 		"ft": 16384,
 		"iS": 6174510,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-02.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-03.jpg": {
+	"/www.myzarstore.com/images/about/about-03.jpg": {
 		"ft": 16384,
 		"iS": 3261880,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-03.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-04.jpg": {
+	"/www.myzarstore.com/images/about/about-04.jpg": {
 		"ft": 16384,
 		"iS": 5347160,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-04.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-05.jpg": {
+	"/www.myzarstore.com/images/about/about-05.jpg": {
 		"ft": 16384,
 		"iS": 4526190,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-05.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-06.jpg": {
+	"/www.myzarstore.com/images/about/about-06.jpg": {
 		"ft": 16384,
 		"iS": 4248270,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-06.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-07.jpg": {
+	"/www.myzarstore.com/images/about/about-07.jpg": {
 		"ft": 16384,
 		"iS": 2364370,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-07.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-08.jpg": {
+	"/www.myzarstore.com/images/about/about-08.jpg": {
 		"ft": 16384,
 		"iS": 2274940,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-08.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-09.jpg": {
+	"/www.myzarstore.com/images/about/about-09.jpg": {
 		"ft": 16384,
 		"iS": 2188860,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-09.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-10.jpg": {
+	"/www.myzarstore.com/images/about/about-10.jpg": {
 		"ft": 16384,
 		"iS": 1828700,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-10.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/about\/about-11.jpg": {
+	"/www.myzarstore.com/images/about/about-11.jpg": {
 		"ft": 16384,
 		"iS": 3256820,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/about\/about-11.jpg",
+		"oAP": "/www.myzarstore.com/images/about/about-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2881.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2881.jpg": {
 		"ft": 16384,
 		"iS": 4526190,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2881.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2881.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2883.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2883.jpg": {
 		"ft": 16384,
 		"iS": 4248270,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2883.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2883.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2886.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2886.jpg": {
 		"ft": 16384,
 		"iS": 1876040,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2886.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2886.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2888.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2888.jpg": {
 		"ft": 16384,
 		"iS": 2562430,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2888.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2888.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2899.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2899.jpg": {
 		"ft": 16384,
 		"iS": 2402950,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2899.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2899.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2900.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2900.jpg": {
 		"ft": 16384,
 		"iS": 2095170,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2900.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2900.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2910.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2910.jpg": {
 		"ft": 16384,
 		"iS": 2188860,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2910.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2910.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2915.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2915.jpg": {
 		"ft": 16384,
 		"iS": 2337430,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2915.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2915.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/855A2922.jpg": {
+	"/www.myzarstore.com/images/designers-logos/855A2922.jpg": {
 		"ft": 16384,
 		"iS": 1917500,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/855A2922.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/855A2922.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/agneskolignan.png": {
+	"/www.myzarstore.com/images/designers-logos/agneskolignan.png": {
 		"ft": 32768,
 		"iS": 54660,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/agneskolignan.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/agneskolignan.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/anna-daubner.png": {
+	"/www.myzarstore.com/images/designers-logos/anna-daubner.png": {
 		"ft": 32768,
 		"iS": 3587,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/anna-daubner.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/anna-daubner.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/claudiadanna.svg": {
+	"/www.myzarstore.com/images/designers-logos/claudiadanna.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/claudiadanna.svg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/claudiadanna.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png": {
+	"/www.myzarstore.com/images/designers-logos/comeforbreakfast.png": {
 		"ft": 32768,
 		"iS": 1922,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/comeforbreakfast.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/comeforbreakfast.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/coro-jewellery.jpg": {
+	"/www.myzarstore.com/images/designers-logos/coro-jewellery.jpg": {
 		"ft": 16384,
 		"iS": 10961,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/coro-jewellery.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/coro-jewellery.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/cristina-ruggiero.png": {
+	"/www.myzarstore.com/images/designers-logos/cristina-ruggiero.png": {
 		"ft": 32768,
 		"iS": 7390,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/cristina-ruggiero.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/cristina-ruggiero.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png": {
+	"/www.myzarstore.com/images/designers-logos/eulalia-b.png": {
 		"ft": 32768,
 		"iS": 22873,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/eulalia-b.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/eulalia-b.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/evadifranco.jpg": {
+	"/www.myzarstore.com/images/designers-logos/evadifranco.jpg": {
 		"ft": 16384,
 		"iS": 5159,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/evadifranco.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/evadifranco.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/irma-cipolletta.jpg": {
+	"/www.myzarstore.com/images/designers-logos/irma-cipolletta.jpg": {
 		"ft": 16384,
 		"iS": 5139,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/irma-cipolletta.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/irma-cipolletta.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/logoquattromani.png": {
+	"/www.myzarstore.com/images/designers-logos/logoquattromani.png": {
 		"ft": 32768,
 		"iS": 2282,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/logoquattromani.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/logoquattromani.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/muta-design.jpg": {
+	"/www.myzarstore.com/images/designers-logos/muta-design.jpg": {
 		"ft": 16384,
 		"iS": 6946,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/muta-design.jpg",
+		"oAP": "/www.myzarstore.com/images/designers-logos/muta-design.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/the-b.png": {
+	"/www.myzarstore.com/images/designers-logos/the-b.png": {
 		"ft": 32768,
 		"iS": 15045,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/the-b.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/the-b.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/toi-et-moi.png": {
+	"/www.myzarstore.com/images/designers-logos/toi-et-moi.png": {
 		"ft": 32768,
 		"iS": 7689,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/toi-et-moi.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/toi-et-moi.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/valentina-l-fontana.png": {
+	"/www.myzarstore.com/images/designers-logos/valentina-l-fontana.png": {
 		"ft": 32768,
 		"iS": 55141,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/valentina-l-fontana.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/valentina-l-fontana.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers-logos\/xenophora.png": {
+	"/www.myzarstore.com/images/designers-logos/xenophora.png": {
 		"ft": 32768,
 		"iS": 45760,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers-logos\/xenophora.png",
+		"oAP": "/www.myzarstore.com/images/designers-logos/xenophora.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-01.jpg": {
+	"/www.myzarstore.com/images/designers/designers-01.jpg": {
 		"ft": 16384,
 		"iS": 2402950,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-01.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-02.jpg": {
+	"/www.myzarstore.com/images/designers/designers-02.jpg": {
 		"ft": 16384,
 		"iS": 2226410,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-02.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-03.jpg": {
+	"/www.myzarstore.com/images/designers/designers-03.jpg": {
 		"ft": 16384,
 		"iS": 2337430,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-03.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-04.jpg": {
+	"/www.myzarstore.com/images/designers/designers-04.jpg": {
 		"ft": 16384,
 		"iS": 5435600,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-04.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-05.jpg": {
+	"/www.myzarstore.com/images/designers/designers-05.jpg": {
 		"ft": 16384,
 		"iS": 8315190,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-05.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-06.jpg": {
+	"/www.myzarstore.com/images/designers/designers-06.jpg": {
 		"ft": 16384,
 		"iS": 4500580,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-06.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-07.jpg": {
+	"/www.myzarstore.com/images/designers/designers-07.jpg": {
 		"ft": 16384,
 		"iS": 6045980,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-07.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-08.jpg": {
+	"/www.myzarstore.com/images/designers/designers-08.jpg": {
 		"ft": 16384,
 		"iS": 5259070,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-08.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-09.jpg": {
+	"/www.myzarstore.com/images/designers/designers-09.jpg": {
 		"ft": 16384,
 		"iS": 4987230,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-09.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-10.jpg": {
+	"/www.myzarstore.com/images/designers/designers-10.jpg": {
 		"ft": 16384,
 		"iS": 6001000,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-10.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-11.jpg": {
+	"/www.myzarstore.com/images/designers/designers-11.jpg": {
 		"ft": 16384,
 		"iS": 5175540,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-11.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-12.jpg": {
+	"/www.myzarstore.com/images/designers/designers-12.jpg": {
 		"ft": 16384,
 		"iS": 2604850,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-12.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-13.jpg": {
+	"/www.myzarstore.com/images/designers/designers-13.jpg": {
 		"ft": 16384,
 		"iS": 2095170,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-13.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-14.jpg": {
+	"/www.myzarstore.com/images/designers/designers-14.jpg": {
 		"ft": 16384,
 		"iS": 4461110,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-14.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-15.jpg": {
+	"/www.myzarstore.com/images/designers/designers-15.jpg": {
 		"ft": 16384,
 		"iS": 5473590,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-15.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/designers\/designers-16.jpg": {
+	"/www.myzarstore.com/images/designers/designers-16.jpg": {
 		"ft": 16384,
 		"iS": 9244400,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/designers\/designers-16.jpg",
+		"oAP": "/www.myzarstore.com/images/designers/designers-16.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/events\/baroque-cocktail-party.jpg": {
+	"/www.myzarstore.com/images/events/baroque-cocktail-party.jpg": {
 		"ft": 16384,
 		"iS": 506311,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/events\/baroque-cocktail-party.jpg",
+		"oAP": "/www.myzarstore.com/images/events/baroque-cocktail-party.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-144x144.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-144x144.png": {
 		"ft": 32768,
 		"iS": 2572,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-144x144.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-192x192.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 3592,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-192x192.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-36x36.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-36x36.png": {
 		"ft": 32768,
 		"iS": 526,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-36x36.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-36x36.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-48x48.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-48x48.png": {
 		"ft": 32768,
 		"iS": 781,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-48x48.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-48x48.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-72x72.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-72x72.png": {
 		"ft": 32768,
 		"iS": 1160,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-72x72.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-72x72.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/android-chrome-96x96.png": {
+	"/www.myzarstore.com/images/favicons/android-chrome-96x96.png": {
 		"ft": 32768,
 		"iS": 1676,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/android-chrome-96x96.png",
+		"oAP": "/www.myzarstore.com/images/favicons/android-chrome-96x96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-114x114.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 1944,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-114x114.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-114x114.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-120x120.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 2108,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-120x120.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-120x120.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-144x144.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 2572,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-144x144.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-152x152.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 2773,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-152x152.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-152x152.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-180x180.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 3358,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-180x180.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-180x180.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-57x57.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 969,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-57x57.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-57x57.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-60x60.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 946,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-60x60.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-60x60.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-72x72.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 1160,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-72x72.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-72x72.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-76x76.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 1276,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-76x76.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-76x76.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-precomposed.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 3832,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-precomposed.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/apple-touch-icon.png": {
+	"/www.myzarstore.com/images/favicons/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3358,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon.png",
+		"oAP": "/www.myzarstore.com/images/favicons/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/browserconfig.xml": {
+	"/www.myzarstore.com/images/favicons/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/browserconfig.xml",
+		"oAP": "/www.myzarstore.com/images/favicons/browserconfig.xml",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/images\/favicons\/favicon-16x16.png": {
+	"/www.myzarstore.com/images/favicons/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 350,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/favicon-16x16.png",
+		"oAP": "/www.myzarstore.com/images/favicons/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/favicon-32x32.png": {
+	"/www.myzarstore.com/images/favicons/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 557,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/favicon-32x32.png",
+		"oAP": "/www.myzarstore.com/images/favicons/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/favicon-96x96.png": {
+	"/www.myzarstore.com/images/favicons/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 1905,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/favicon-96x96.png",
+		"oAP": "/www.myzarstore.com/images/favicons/favicon-96x96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/favicon.ico": {
+	"/www.myzarstore.com/images/favicons/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/favicon.ico",
+		"oAP": "/www.myzarstore.com/images/favicons/favicon.ico",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/images\/favicons\/manifest.json": {
+	"/www.myzarstore.com/images/favicons/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/manifest-min.json",
+		"oAP": "/www.myzarstore.com/images/favicons/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www.myzarstore.com\/images\/favicons\/mstile-144x144.png": {
+	"/www.myzarstore.com/images/favicons/mstile-144x144.png": {
 		"ft": 32768,
 		"iS": 2783,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/mstile-144x144.png",
+		"oAP": "/www.myzarstore.com/images/favicons/mstile-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/mstile-150x150.png": {
+	"/www.myzarstore.com/images/favicons/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 2755,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/mstile-150x150.png",
+		"oAP": "/www.myzarstore.com/images/favicons/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/mstile-310x150.png": {
+	"/www.myzarstore.com/images/favicons/mstile-310x150.png": {
 		"ft": 32768,
 		"iS": 3002,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/mstile-310x150.png",
+		"oAP": "/www.myzarstore.com/images/favicons/mstile-310x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/mstile-310x310.png": {
+	"/www.myzarstore.com/images/favicons/mstile-310x310.png": {
 		"ft": 32768,
 		"iS": 6134,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/mstile-310x310.png",
+		"oAP": "/www.myzarstore.com/images/favicons/mstile-310x310.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/favicons\/mstile-70x70.png": {
+	"/www.myzarstore.com/images/favicons/mstile-70x70.png": {
 		"ft": 32768,
 		"iS": 1849,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/favicons\/mstile-70x70.png",
+		"oAP": "/www.myzarstore.com/images/favicons/mstile-70x70.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/03.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/03.jpg": {
 		"ft": 16384,
 		"iS": 425022,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/03.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/06.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/06.jpg": {
 		"ft": 16384,
 		"iS": 2287610,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/06.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/07.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/07.jpg": {
 		"ft": 16384,
 		"iS": 1866680,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/07.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/389818-4-5-0.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/389818-4-5-0.jpg": {
 		"ft": 16384,
 		"iS": 2273250,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/389818-4-5-0.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/389818-4-5-0.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/61010010.JPG": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/61010010.JPG": {
 		"ft": 16384,
 		"iS": 810371,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/61010010.JPG",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/61010010.JPG",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/737465-12-13A-PfDF43.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/737465-12-13A-PfDF43.jpg": {
 		"ft": 16384,
 		"iS": 2365000,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/737465-12-13A-PfDF43.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/737465-12-13A-PfDF43.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/B701625_N0054_ID873168353_E_P001.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/B701625_N0054_ID873168353_E_P001.jpg": {
 		"ft": 16384,
 		"iS": 1276260,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/B701625_N0054_ID873168353_E_P001.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/B701625_N0054_ID873168353_E_P001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott248 copia.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/Ott248 copia.jpg": {
 		"ft": 16384,
 		"iS": 1306680,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott248 copia.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/Ott248 copia.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott255 copia.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/Ott255 copia.jpg": {
 		"ft": 16384,
 		"iS": 693927,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott255 copia.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/Ott255 copia.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott261 copia.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/Ott261 copia.jpg": {
 		"ft": 16384,
 		"iS": 535144,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/Ott261 copia.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/Ott261 copia.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/Foto_MYZAR_web\/x.jpg": {
+	"/www.myzarstore.com/images/Foto_MYZAR_web/x.jpg": {
 		"ft": 16384,
 		"iS": 1635390,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/Foto_MYZAR_web\/x.jpg",
+		"oAP": "/www.myzarstore.com/images/Foto_MYZAR_web/x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/home.jpg": {
+	"/www.myzarstore.com/images/home.jpg": {
 		"ft": 16384,
 		"iS": 32768,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/home.jpg",
+		"oAP": "/www.myzarstore.com/images/home.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/image2.jpg": {
+	"/www.myzarstore.com/images/image2.jpg": {
 		"ft": 16384,
 		"iS": 381777,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/image2.jpg",
+		"oAP": "/www.myzarstore.com/images/image2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/img.jpg": {
+	"/www.myzarstore.com/images/img.jpg": {
 		"ft": 16384,
 		"iS": 14834,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/img.jpg",
+		"oAP": "/www.myzarstore.com/images/img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/logo.svg": {
+	"/www.myzarstore.com/images/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/images\/logo.svg",
+		"oAP": "/www.myzarstore.com/images/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-01.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-01.jpg": {
 		"ft": 16384,
 		"iS": 258982,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-01.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-02.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-02.jpg": {
 		"ft": 16384,
 		"iS": 178721,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-02.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-03.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-03.jpg": {
 		"ft": 16384,
 		"iS": 332467,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-03.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-04.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-04.jpg": {
 		"ft": 16384,
 		"iS": 332288,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-04.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-05.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-05.jpg": {
 		"ft": 16384,
 		"iS": 302843,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-05.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-06.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-06.jpg": {
 		"ft": 16384,
 		"iS": 235516,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-06.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-07.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-07.jpg": {
 		"ft": 16384,
 		"iS": 199537,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-07.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-08.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-08.jpg": {
 		"ft": 16384,
 		"iS": 179041,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-08.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-09.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-09.jpg": {
 		"ft": 16384,
 		"iS": 131726,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-09.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-10.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-10.jpg": {
 		"ft": 16384,
 		"iS": 110818,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-10.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-11.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-11.jpg": {
 		"ft": 16384,
 		"iS": 299454,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-11.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_about\/about-12.jpg": {
+	"/www.myzarstore.com/images/OLD_about/about-12.jpg": {
 		"ft": 16384,
 		"iS": 381723,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_about\/about-12.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_about/about-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-01.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-01.jpg": {
 		"ft": 16384,
 		"iS": 238577,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-01.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-02.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-02.jpg": {
 		"ft": 16384,
 		"iS": 135245,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-02.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-03.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-03.jpg": {
 		"ft": 16384,
 		"iS": 231730,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-03.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-04.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-04.jpg": {
 		"ft": 16384,
 		"iS": 249395,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-04.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-05.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-05.jpg": {
 		"ft": 16384,
 		"iS": 1127091,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-05.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-06.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-06.jpg": {
 		"ft": 16384,
 		"iS": 310507,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-06.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-07.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-07.jpg": {
 		"ft": 16384,
 		"iS": 601177,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-07.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-08.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-08.jpg": {
 		"ft": 16384,
 		"iS": 354125,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-08.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-09.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-09.jpg": {
 		"ft": 16384,
 		"iS": 415421,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-09.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-10.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-10.jpg": {
 		"ft": 16384,
 		"iS": 224468,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-10.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-11.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-11.jpg": {
 		"ft": 16384,
 		"iS": 468800,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-11.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-12.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-12.jpg": {
 		"ft": 16384,
 		"iS": 219439,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-12.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-13.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-13.jpg": {
 		"ft": 16384,
 		"iS": 147577,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-13.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-14.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-14.jpg": {
 		"ft": 16384,
 		"iS": 142366,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-14.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-15.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-15.jpg": {
 		"ft": 16384,
 		"iS": 204281,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-15.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-16.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-16.jpg": {
 		"ft": 16384,
 		"iS": 520819,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-16.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-16.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-17.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-17.jpg": {
 		"ft": 16384,
 		"iS": 215294,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-17.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-17.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-18.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-18.jpg": {
 		"ft": 16384,
 		"iS": 114106,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-18.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-18.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-19.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-19.jpg": {
 		"ft": 16384,
 		"iS": 201708,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-19.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-19.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-20.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-20.jpg": {
 		"ft": 16384,
 		"iS": 119360,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-20.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-20.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-21.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-21.jpg": {
 		"ft": 16384,
 		"iS": 107682,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-21.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-21.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-22.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-22.jpg": {
 		"ft": 16384,
 		"iS": 72783,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-22.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-22.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-23.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-23.jpg": {
 		"ft": 16384,
 		"iS": 57743,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-23.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-23.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-24.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-24.jpg": {
 		"ft": 16384,
 		"iS": 88361,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-24.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-24.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/OLD_designers\/designers-25.jpg": {
+	"/www.myzarstore.com/images/OLD_designers/designers-25.jpg": {
 		"ft": 16384,
 		"iS": 138468,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/OLD_designers\/designers-25.jpg",
+		"oAP": "/www.myzarstore.com/images/OLD_designers/designers-25.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/the-man.jpg": {
+	"/www.myzarstore.com/images/the-man.jpg": {
 		"ft": 16384,
 		"iS": 3960100,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/the-man.jpg",
+		"oAP": "/www.myzarstore.com/images/the-man.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/855A2871copy.jpg": {
+	"/www.myzarstore.com/images/thumbs/855A2871copy.jpg": {
 		"ft": 16384,
 		"iS": 2723240,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/855A2871copy.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/855A2871copy.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2881.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2881.jpg": {
 		"ft": 16384,
 		"iS": 32824,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2881.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2881.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2883.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2883.jpg": {
 		"ft": 16384,
 		"iS": 26972,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2883.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2883.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2886.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2886.jpg": {
 		"ft": 16384,
 		"iS": 15616,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2886.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2886.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2888.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2888.jpg": {
 		"ft": 16384,
 		"iS": 16876,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2888.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2888.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2899.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2899.jpg": {
 		"ft": 16384,
 		"iS": 28716,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2899.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2899.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2900.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2900.jpg": {
 		"ft": 16384,
 		"iS": 18599,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2900.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2900.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2910.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2910.jpg": {
 		"ft": 16384,
 		"iS": 16896,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2910.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2910.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2915.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2915.jpg": {
 		"ft": 16384,
 		"iS": 27794,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2915.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2915.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2922.jpg": {
+	"/www.myzarstore.com/images/thumbs/_designers/855A2922.jpg": {
 		"ft": 16384,
 		"iS": 18265,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/_designers\/855A2922.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/_designers/855A2922.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-1.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-1.jpg": {
 		"ft": 16384,
 		"iS": 19534,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-1.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-2.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-2.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-2.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-3.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-3.jpg": {
 		"ft": 16384,
 		"iS": 18455,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-3.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-4.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-4.jpg": {
 		"ft": 16384,
 		"iS": 18836,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-4.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-5.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-5.jpg": {
 		"ft": 16384,
 		"iS": 16889,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-5.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-6.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-6.jpg": {
 		"ft": 16384,
 		"iS": 18685,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-6.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-6.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about-7.jpg": {
+	"/www.myzarstore.com/images/thumbs/about-7.jpg": {
 		"ft": 16384,
 		"iS": 12706,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about-7.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-01.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-01.jpg": {
 		"ft": 16384,
 		"iS": 19765,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-01.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-02.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-02.jpg": {
 		"ft": 16384,
 		"iS": 11936,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-02.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-03.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-03.jpg": {
 		"ft": 16384,
 		"iS": 11238,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-03.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-04.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-04.jpg": {
 		"ft": 16384,
 		"iS": 21789,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-04.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-05.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-05.jpg": {
 		"ft": 16384,
 		"iS": 22163,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-05.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-06.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-06.jpg": {
 		"ft": 16384,
 		"iS": 16141,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-06.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-07.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-07.jpg": {
 		"ft": 16384,
 		"iS": 20465,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-07.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-08.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-08.jpg": {
 		"ft": 16384,
 		"iS": 13465,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-08.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-09.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-09.jpg": {
 		"ft": 16384,
 		"iS": 19325,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-09.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-10.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-10.jpg": {
 		"ft": 16384,
 		"iS": 18308,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-10.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/about\/about-11.jpg": {
+	"/www.myzarstore.com/images/thumbs/about/about-11.jpg": {
 		"ft": 16384,
 		"iS": 12064,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/about\/about-11.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/about/about-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-01.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-01.jpg": {
 		"ft": 16384,
 		"iS": 25602,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-01.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-02.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-02.jpg": {
 		"ft": 16384,
 		"iS": 27313,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-02.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-03.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-03.jpg": {
 		"ft": 16384,
 		"iS": 8127,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-03.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-04.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-04.jpg": {
 		"ft": 16384,
 		"iS": 14765,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-04.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-05.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-05.jpg": {
 		"ft": 16384,
 		"iS": 19024,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-05.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-06.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-06.jpg": {
 		"ft": 16384,
 		"iS": 17102,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-06.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-07.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-07.jpg": {
 		"ft": 16384,
 		"iS": 16226,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-07.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-08.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-08.jpg": {
 		"ft": 16384,
 		"iS": 17693,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-08.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-09.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-09.jpg": {
 		"ft": 16384,
 		"iS": 21694,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-09.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-10.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-10.jpg": {
 		"ft": 16384,
 		"iS": 19905,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-10.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-11.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-11.jpg": {
 		"ft": 16384,
 		"iS": 17085,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-11.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-12.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-12.jpg": {
 		"ft": 16384,
 		"iS": 9123,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-12.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-13.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-13.jpg": {
 		"ft": 16384,
 		"iS": 19142,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-13.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-14.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-14.jpg": {
 		"ft": 16384,
 		"iS": 19533,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-14.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-15.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-15.jpg": {
 		"ft": 16384,
 		"iS": 20012,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-15.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/designers\/designers-16.jpg": {
+	"/www.myzarstore.com/images/thumbs/designers/designers-16.jpg": {
 		"ft": 16384,
 		"iS": 22625,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/designers\/designers-16.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/designers/designers-16.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/events\/baroque-cocktail-party.jpg": {
+	"/www.myzarstore.com/images/thumbs/events/baroque-cocktail-party.jpg": {
 		"ft": 16384,
 		"iS": 251254,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/events\/baroque-cocktail-party.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/events/baroque-cocktail-party.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-01.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-01.jpg": {
 		"ft": 16384,
 		"iS": 10364,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-01.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-02.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-02.jpg": {
 		"ft": 16384,
 		"iS": 9429,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-02.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-03.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-03.jpg": {
 		"ft": 16384,
 		"iS": 14028,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-03.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-04.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-04.jpg": {
 		"ft": 16384,
 		"iS": 15015,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-04.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-05.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-05.jpg": {
 		"ft": 16384,
 		"iS": 16000,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-05.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-06.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-06.jpg": {
 		"ft": 16384,
 		"iS": 13434,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-06.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-07.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-07.jpg": {
 		"ft": 16384,
 		"iS": 11108,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-07.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-08.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-08.jpg": {
 		"ft": 16384,
 		"iS": 11877,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-08.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-09.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-09.jpg": {
 		"ft": 16384,
 		"iS": 8582,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-09.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-10.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-10.jpg": {
 		"ft": 16384,
 		"iS": 8091,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-10.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-11.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-11.jpg": {
 		"ft": 16384,
 		"iS": 12198,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-11.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-12.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_about/about-12.jpg": {
 		"ft": 16384,
 		"iS": 13571,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_about\/about-12.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_about/about-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-01.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-01.jpg": {
 		"ft": 16384,
 		"iS": 13880,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-01.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-02.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-02.jpg": {
 		"ft": 16384,
 		"iS": 9563,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-02.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-03.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-03.jpg": {
 		"ft": 16384,
 		"iS": 13394,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-03.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-04.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-04.jpg": {
 		"ft": 16384,
 		"iS": 11052,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-04.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-05.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-05.jpg": {
 		"ft": 16384,
 		"iS": 23240,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-05.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-06.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-06.jpg": {
 		"ft": 16384,
 		"iS": 14840,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-06.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-07.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-07.jpg": {
 		"ft": 16384,
 		"iS": 17018,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-07.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-08.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-08.jpg": {
 		"ft": 16384,
 		"iS": 13632,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-08.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-09.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-09.jpg": {
 		"ft": 16384,
 		"iS": 15457,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-09.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-10.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-10.jpg": {
 		"ft": 16384,
 		"iS": 8760,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-10.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-11.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-11.jpg": {
 		"ft": 16384,
 		"iS": 13923,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-11.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-12.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-12.jpg": {
 		"ft": 16384,
 		"iS": 12382,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-12.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-13.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-13.jpg": {
 		"ft": 16384,
 		"iS": 9188,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-13.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-14.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-14.jpg": {
 		"ft": 16384,
 		"iS": 9740,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-14.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-15.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-15.jpg": {
 		"ft": 16384,
 		"iS": 14663,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-15.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-16.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-16.jpg": {
 		"ft": 16384,
 		"iS": 19150,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-16.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-16.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-17.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-17.jpg": {
 		"ft": 16384,
 		"iS": 11345,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-17.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-17.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-18.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-18.jpg": {
 		"ft": 16384,
 		"iS": 9075,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-18.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-18.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-19.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-19.jpg": {
 		"ft": 16384,
 		"iS": 11669,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-19.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-19.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-20.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-20.jpg": {
 		"ft": 16384,
 		"iS": 8700,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-20.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-20.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-21.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-21.jpg": {
 		"ft": 16384,
 		"iS": 6409,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-21.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-21.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-22.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-22.jpg": {
 		"ft": 16384,
 		"iS": 5849,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-22.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-22.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-23.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-23.jpg": {
 		"ft": 16384,
 		"iS": 5973,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-23.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-23.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-24.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-24.jpg": {
 		"ft": 16384,
 		"iS": 7008,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-24.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-24.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-25.jpg": {
+	"/www.myzarstore.com/images/thumbs/OLD_designers/designers-25.jpg": {
 		"ft": 16384,
 		"iS": 8225,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/OLD_designers\/designers-25.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/OLD_designers/designers-25.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/images\/thumbs\/the-man.jpg": {
+	"/www.myzarstore.com/images/thumbs/the-man.jpg": {
 		"ft": 16384,
 		"iS": 48545,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/images\/thumbs\/the-man.jpg",
+		"oAP": "/www.myzarstore.com/images/thumbs/the-man.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/www.myzarstore.com\/index-it.html": {
+	"/www.myzarstore.com/index-it.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/index-it.html",
+		"oAP": "/www.myzarstore.com/index-it.html",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/index.html": {
+	"/www.myzarstore.com/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/index.html",
+		"oAP": "/www.myzarstore.com/index.html",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/ratto.html": {
+	"/www.myzarstore.com/ratto.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/www.myzarstore.com\/ratto.html",
+		"oAP": "/www.myzarstore.com/ratto.html",
 		"oF": 0
 		},
-	"\/www.myzarstore.com\/scripts-min.js": {
+	"/www.myzarstore.com/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/scripts-min-min.js",
+		"oAP": "/www.myzarstore.com/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www.myzarstore.com\/style.css": {
+	"/www.myzarstore.com/style.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/www.myzarstore.com\/style-min.css",
+		"oAP": "/www.myzarstore.com/style-min.css",
 		"oF": 0,
 		"oS": 0
 		}
@@ -2001,160 +2622,107 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/scripts.js": [
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 505580529,
 	"displayValue": "myzar",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/www.myzarstore.com\/images\/favicons\/apple-touch-icon-180x180.png"
+	"iconImageName": "/www.myzarstore.com/images/favicons/apple-touch-icon-120x120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -2166,7 +2734,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -2178,7 +2767,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -2214,53 +2821,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -2269,6 +2869,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2418,6 +3019,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -2425,6 +3030,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -2522,6 +3131,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -2538,9 +3151,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -2565,6 +3186,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2598,9 +3223,13 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2613,6 +3242,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2630,6 +3263,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2639,14 +3276,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2662,9 +3291,21 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2674,12 +3315,12 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-catch-shadow": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -2870,15 +3511,23 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2959,6 +3608,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3158,6 +3811,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -3194,6 +3851,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -3202,9 +3863,21 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3230,6 +3903,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -3237,6 +3914,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 0,
@@ -3253,6 +3934,10 @@
 		"semi-spacing": {
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
 			},
 		"sort-imports": {
 			"active": 0,
@@ -3288,17 +3973,25 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -3340,7 +4033,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3702,7 +4395,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -3734,7 +4428,7 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3745,12 +4439,14 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "www.myzarstore.com\/",
+		"autoOutputPathRelativePath": "www.myzarstore.com/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -3769,39 +4465,32 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "www.myzarstore.com\/",
+		"autoOutputPathRelativePath": "www.myzarstore.com/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 1
+		"autoOutputPathStyle": 1,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3815,13 +4504,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3830,7 +4519,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3838,7 +4528,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -3848,12 +4540,13 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "www.myzarstore.com\/",
+		"autoOutputPathRelativePath": "www.myzarstore.com/",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
@@ -3876,12 +4569,13 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3905,34 +4599,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/myzar.esproj",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /myzar.esproj",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3940,11 +4670,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3968,6 +4698,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3984,7 +4718,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3992,20 +4734,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -4020,6 +4774,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -4028,12 +4790,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -4044,12 +4814,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -4060,23 +4838,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4088,13 +4894,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "www.myzarstore.com\/"
+	"websiteRelativeRoot": "www.myzarstore.com/"
 	},
 "settingsFileVersion": "3"
 }

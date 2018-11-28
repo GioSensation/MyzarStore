@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		beenDoneA = false,
 		beenDoneC = false,
 		beenDoneP = false,
-		copyright = document.getElementById('copyright'),
 		mapLink = document.getElementsByClassName('mapLink'),
 		isApple = (navigator.userAgent.match(/Mac OS X/i)) ? true: false,
 		toBlur = document.querySelector( '.to-blur' );
@@ -148,8 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	if ( !isApple ) {
 		[].forEach.call( mapLink, function(el) {
-			var coords = el.getAttribute('data-coords');
-			el.setAttribute('href', 'https://maps.google.com/maps?q='+ coords +'&t=m&z=17');
+			el.setAttribute('href', 'https://www.google.it/maps/place/MYZAR+Concept+Store/@41.9018149,12.4735534,20z/data=!4m5!3m4!1s0x132f604341933483:0xd62700be17a9d448!8m2!3d41.901777!4d12.4734648');
 		});
 	}
 
